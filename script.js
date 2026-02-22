@@ -57,12 +57,12 @@ document.addEventListener("click", function (e) {
     if (e.target.classList.contains('interview-btn')) {
         card.dataset.status = 'interview';
         badge.innerText = 'INTERVIEW'
-        badge.className = 'status-badge inline-block bg-green-100 text-green-600 text-[18px] px-2 py-1 rounded mt-2';
+        badge.className = 'status-badge inline-block bg-green-200 text-green-600 text-[14px] font-[600] px-2 py-1 rounded mt-2';
     }
     if (e.target.classList.contains("reject-btn")) {
         card.dataset.status = "rejected";
         badge.innerText = "REJECTED"
-        badge.className = "status-badge inline-block bg-red-100 text-red-600 text-[18px] px-2 py-1 rounded mt-2";
+        badge.className = "status-badge inline-block bg-red-200 text-red-600 text-[14px]   font-[600] px-2 py-1 rounded mt-2";
     }
 
     if (e.target.classList.contains("delete-btn")) {
